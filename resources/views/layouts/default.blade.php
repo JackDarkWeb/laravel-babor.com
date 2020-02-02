@@ -36,12 +36,10 @@
     @stack('head_script')
 
 </head>
+
 <body>
 
-
-
 @yield('content')
-
 
 </body>
 </html>

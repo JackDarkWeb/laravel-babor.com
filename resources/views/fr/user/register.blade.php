@@ -10,7 +10,15 @@
                     <div class="collapse navbar-collapse">
                         <ul class="navbar-nav col">
                             <li class="nav-item d-none d-lg-block">
-                                <a class="nav-link" href="#" style="color: #111; background: #eee; padding: 5px 20px 5px 20px; border-radius: 10px;">Fr</a>
+                                <div class="dropdown" >
+                                    <a class="btn btn-secondary dropdown-toggle nav-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #111; background: #eee; padding: 5px 20px 5px 20px; border-radius: 10px;">
+                                        Fr
+                                    </a>
+
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item nav-link" href="#" style="color: #111; background: #eee; padding: 5px 20px 5px 20px; border-radius: 10px;">En</a>
+                                    </div>
+                                </div>
                             </li>
                             <li class="nav-item d-block d-lg-none">
                                 <a class="navbar-brand" href="/" style="color: #fff;"><img src="{{ asset('app/images/Logo45.png') }}"></a>
